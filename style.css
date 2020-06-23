@@ -1,0 +1,147 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5f9ea0;
+}
+
+.milk {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  /* 	margin:50%; */
+  ransition: all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.2s;
+  animation-name: MILK;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* 	transform: rotate(-80deg); */
+}
+
+.milk:hover {
+  transform: rotate(-80deg);
+}
+
+@keyframes MILK {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: 500px;
+  }
+}
+.top1 {
+  position: relative;
+  top: 2px;
+  height: 10px;
+  width: 50px;
+  background: #b2ebf2;
+  border-radius: 2px;
+}
+
+.s1 {
+  position: relative;
+  left: -8px;
+  top: 6px;
+  height: 20px;
+  width: 55px;
+  background: #b2ebf2;
+  transform: skewY(-30deg) rotate(30deg);
+  border-radius: 0px;
+}
+
+.s2 {
+  position: relative;
+  left: -10px;
+  top: 10px;
+  height: 50px;
+  width: 48px;
+  background: #00bcd4;
+}
+
+.milk2 {
+  position: absolute;
+  left: -5px;
+  top: 52px;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.s3 {
+  position: relative;
+  left: -10px;
+  top: -35px;
+  height: 8px;
+  width: 48px;
+  background: #fff8dc;
+}
+
+.s4 {
+  position: relative;
+  left: -10px;
+  top: -15px;
+  height: 8px;
+  width: 48px;
+  background: #fff8dc;
+}
+
+.t1 {
+  position: absolute;
+  left: 42px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  /* 	background:gray; */
+  border-style: solid;
+  border-width: 0 15px 20px 10px;
+  border-color: transparent transparent #3797a4 transparent;
+  transform: rotate(113deg);
+}
+
+.s5 {
+  position: relative;
+  left: 40px;
+  top: -59px;
+  height: 50px;
+  width: 25px;
+  background: #3797a4;
+  transform: skewY(-15deg);
+}
+
+.s6 {
+  position: relative;
+  left: 40px;
+  top: -104px;
+  height: 8px;
+  width: 25px;
+  background: #f9d89c;
+  transform: skewY(-15deg);
+}
+
+.s7 {
+  position: relative;
+  left: 40px;
+  top: -84px;
+  height: 8px;
+  width: 25px;
+  background: #f9d89c;
+  transform: skewY(-15deg);
+}
+
+.something {
+  position: relative;
+  left: -41px;
+  top: -180px;
+  height: 50px;
+  width: 48px;
+  opacity: 0%;
+  transform: rotate(80deg);
+}
+
+.something:hover {
+  opacity: 100%;
+}
